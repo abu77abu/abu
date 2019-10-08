@@ -1,4 +1,17 @@
-Git init
-Git add
-Git commit
-Git push origin master
+
+pkg install termux-auth
+$ pkg install termux-auth
+Ign:1 https://dl.bintray.com/termux/termux-packages-24 stable InRelease
+Ign:2 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+Ign:3 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Get:4 https://dl.bintray.com/termux/termux-packages-24 stable Release [6061 B]
+Hit:4 https://dl.bintray.com/termux/termux-packages-24 stable Release
+Get:6 https://dl.bintray.com/grimler/game-packages-24 games Release [5344 B]
+Hit:6 https://dl.bintray.com/grimler/game-packages-24 games Release
+Err:8 https://dl.bintray.com/grimler/science-packages-24 science Release
+  Operation timed out after 120001 milliseconds with 0 out of 0 bytes received
+Reading package lists... Done
+E: The repository 'https://dl.bintray.com/grimler/science-packages-24 science Release' does no longer have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+$
